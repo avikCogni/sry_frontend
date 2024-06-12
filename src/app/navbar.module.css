@@ -1,0 +1,61 @@
+  .navbar {
+    background-color: #E4E3E3;
+    height: 56px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    margin: 0 1rem;
+
+  }
+
+  .navbar .leftLink{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #000;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 150%; /* 30px */
+  }
+  
+  .navbar .rightLinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--Spacing-M, 4px);
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+  .navbar .button{
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #000;
+    color: #ffffff;
+    /* Button Shadow */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease-in-out; /* Add transition for smooth effect */
+  }
+
+  .navbar .button:hover {
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1); /* Increase shadow on hover */
+  }
+
+  .navbar .button:active {
+    transform: translateY(1px); /* Slightly move down on click */
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2); /* Make shadow darker on click */
+  }

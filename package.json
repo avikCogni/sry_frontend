@@ -1,0 +1,42 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@edgestore/react": "^0.1.6",
+    "@edgestore/server": "^0.1.6",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@google-cloud/notebooks": "^3.4.0",
+    "@google-cloud/storage": "^7.11.1",
+    "@google-cloud/vertexai": "^1.2.0",
+    "@google/generative-ai": "^0.12.0",
+    "@vercel/postgres": "^0.8.0",
+    "chalk": "^5.3.0",
+    "formidable": "^3.5.1",
+    "framer-motion": "^11.2.10",
+    "next": "14.2.3",
+    "prompt-sync": "^4.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5"
+  }
+}
